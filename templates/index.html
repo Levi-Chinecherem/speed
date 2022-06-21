@@ -1,0 +1,143 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content1 %}
+
+
+<!--        Carousals -->
+      <div class="banner_section layout_padding">
+      <div class="container">
+      <section >
+         <div id="main_slider" class="section carousel slide banner-main" data-ride="carousel">
+            <ol class="carousel-indicators">
+               <li data-target="#main_slider" data-slide-to="0" class="active"></li>
+               <li data-target="#main_slider" data-slide-to="1"></li>
+               <li data-target="#main_slider" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+               <div class="carousel-item active">
+                  <div class="container">
+                     <div class="row marginii">
+                        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                           <div class="carousel-sporrt_text ">
+                              <h1 class="sport_text"><strong>Sports<br><span style="color: #fff;">Cycle</span></strong></h1>
+                              <p class="lorem_text">
+                                  Cycle sport is competitive physical activity using bicycles.
+                                 There are several categories of bicycle racing including road bicycle racing,
+                                 cyclo-cross,
+                                 mountain bike racing, track cycling, BMX, and cycle speedway.
+                                 Non-racing cycling sports include artistic cycling, cycle polo,
+                                 freestyle BMX and mountain bike trials.
+                              </p>
+                               <a href="https://paystack.com/pay/speed" target="_blank">
+                               <button class="boynow_bt">Buy Now</button>
+                               </a>
+
+                               <a href="mailto:levi.chinecherem@yahoo.com" target="_blank">
+                                   <button class="contact_bt">
+                                       <i class="fa fa-envelope"></i> Email Us</button>
+                               </a>
+                           </div>
+                        </div>
+                        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                           <div class="img-box">
+                              <figure><img src="{% static 'images/img-1.png' %}" style="max-width: 100%;"/></figure>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="carousel-item">
+                  <div class="container">
+                     <div class="container">
+                     <div class="row marginii">
+                        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                           <div class="carousel-sporrt_text ">
+                              <h1 class="sport_text"><strong>Sports<br><span style="color: #fff;">Cycle</span></strong></h1>
+                              <p class="lorem_text">
+                                  If you enjoyed a three speed as a child, you may find this a fun bike again.
+                                 cycling, use of a bicycle for sport, recreation, or transportation.
+                                 The sport of cycling consists of professional and amateur races<br>
+                                 Cycling, which is also called bicycling or biking,
+                                 can be a recreational activity or a sport. Early cycling races involved boneshaker style bicycles.
+                              </p>
+                              <a href="https://paystack.com/pay/speed" target="_blank">
+                               <button class="boynow_bt">Buy Now</button>
+                               </a>
+
+                               <a href="mailto:levi.chinecherem@yahoo.com" target="_blank">
+                                   <button class="contact_bt">
+                                       <i class="fa fa-envelope"></i> Email Us</button>
+                               </a>
+                           </div>
+                        </div>
+                        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                           <div class="img-box">
+                              <figure><img src="{% static 'images/img-1.png' %}" style="max-width: 100%;"/></figure>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  </div>
+               </div>
+               <div class="carousel-item">
+                  <div class="container">
+                     <div class="row marginii">
+                        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                           <div class="carousel-sporrt_text ">
+                              <h1 class="sport_text"><strong>Sports<br><span style="color: #fff;">Cycle</span></strong></h1>
+                              <p class="lorem_text">
+                                 Join and win amazing prices: <br>
+                                 There are several categories of bicycle racing including road bicycle racing,
+                                 cyclo-cross,
+                                 mountain bike racing, track cycling, BMX, and cycle speedway.
+                                 Non-racing cycling sports include artistic cycling, cycle polo,
+                                 freestyle BMX and mountain bike trials.
+                              </p>
+                              <a href="https://paystack.com/pay/speed" target="_blank">
+                               <button class="boynow_bt">Buy Now</button>
+                               </a>
+
+                               <a href="mailto:levi.chinecherem@yahoo.com" target="_blank">
+                                   <button class="contact_bt">
+                                       <i class="fa fa-envelope"></i> Email Us</button>
+                               </a>
+                           </div>
+                        </div>
+                        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                           <div class="img-box">
+                              <figure><img src="{% static 'images/img-1.png' %}" style="max-width: 100%;"/></figure>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      </div>
+      </div>
+      <!-- /Carousal-->
+ {% endblock content1 %}
+
+
+   {% block content2 %}
+
+   <!-- about section start -->
+   {% include 'about-push.html' %}
+   <!-- about section end -->
+
+
+   <!-- our section start -->
+   {% include 'gallery-push.html' %}
+   <!-- our section end -->
+
+   <!-- Contact Us section -->
+   {% include 'contact-push.html' %}
+   <!-- contact us section end -->
+
+   <!-- Testimonial section start -->
+   {% include 'testimonial-push.html' %}
+   <!-- Testimonial section end -->
+
+{% endblock %}

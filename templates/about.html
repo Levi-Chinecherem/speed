@@ -1,0 +1,37 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}SPEED | ABOUT{% endblock %}
+
+{% block content2 %}
+
+   <!-- about section start -->
+   <div class="about_section layout_padding">
+      <div class="container">
+         <div class="about_img"><img src="{% static 'images/about-img1.png' %}" style="max-width: 100%;"></div>
+         <h2 class="about_text"><strong>About <span style="color: #000;">Us</span></strong></h2>
+         <div class="about_middle">
+            <p class="about_lorem">
+               Adventure Road Bicycles are one of the newest categories of bicycle.
+               They are sometimes called all-road bikes, any-road bikes, or gravel bikes,
+               and are the most versatile sub-category of road bike. Similar to cyclocross bikes,
+               they have drop handlebars and the ability to use wider tires.
+               The frame geometry is longer and more upright compared to a cyclocross bike, however,
+               making these bikes more suitable for long days in the saddle, light touring, and commuting.<br>
+               Seven Characteristics of a Well-Designed Cycle Sportive Bicycle includes:
+               Performance Geometry and Componentry,
+               Tire Clearance,
+               Fender Braze-ons,
+               Proper Brakes,
+               Durability,
+               Steel,
+               Low Trail.</p>
+         </div>
+         <div class="red_bt">
+            <button class="read_more">Read More</button>
+         </div>
+      </div>
+   </div>
+   <!-- about section end -->
+
+{% endblock %}
