@@ -28,7 +28,7 @@ SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', '2ofq_*b@_&z+n!)^+)k9z--(dpasb1
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = os.environ.get('DJANGO_DEBUG', '') == 'True'
 
-ALLOWED_HOSTS = ['speed-bicycle.herokuapp.com', '127.0.0.1']
+ALLOWED_HOSTS = ['speed-bicycle.herokuapp.com']
 
 
 # Application definition
